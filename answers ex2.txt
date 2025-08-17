@@ -1,0 +1,40 @@
+01. What happens when the number of hidden nodes increase?
+
+*When you increase the number of hidden nodes (neurons in the hidden layer):
+
+*The network becomes more powerful (it can learn more complex shapes/relationships).
+
+*It can separate the two classes (moons dataset) more accurately.
+
+*Accuracy on the training set usually goes up.
+
+
+02. Can you explain the pattern of the accuracy when the hidden nodes increase?
+
+(i)Very few hidden nodes (1–2):
+
+*Model is too simple.
+
+*Can’t capture curves in the data.
+
+*Accuracy stays low (~50–70%).
+
+*Underfitting.
+
+(ii) Moderate hidden nodes (3–10):
+
+*Model gets enough flexibility to draw curved boundaries.
+
+*Accuracy increases (~85–95%).
+
+*This is usually the sweet spot.
+
+*Large hidden nodes (20–50+):
+
+(iii)Model fits the training data almost perfectly.
+
+*Accuracy may reach ~99–100%.
+
+*But decision boundary may become too complex → it “memorizes” the training set.
+
+*On new data, accuracy might drop. (Overfitting).
